@@ -127,63 +127,63 @@ export default function StaffContacts({ navigation }) {
         <TextInput
           style={styles.input}
           placeholder="Enter ID"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={id}
           onChangeText={(text) => setId(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Name"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={name}
           onChangeText={(text) => setName(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Phone"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={phone}
           onChangeText={(text) => setPhone(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Department"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={department}
           onChangeText={(text) => setDepartment(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Address: Street"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={addressStreet}
           onChangeText={(text) => setAddressStreet(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Address: City"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={addressCity}
           onChangeText={(text) => setAddressCity(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Address: State"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={addressState}
           onChangeText={(text) => setAddressState(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Address: ZIP"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={addressZip}
           onChangeText={(text) => setAddressZip(text)}
         />
         <TextInput
           style={styles.input}
           placeholder="Enter Address: Country"
-          placeholderTextColor="#262626"
+          placeholderTextColor=" #262626"
           value={addressCountry}
           onChangeText={(text) => setAddressCountry(text)}
         />
